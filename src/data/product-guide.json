@@ -1,0 +1,1306 @@
+{
+  "documentation": {
+    "title": "Vendda.co Product Guide",
+    "description": "Complete guide for business owners to manage their online store",
+    "version": "1.0",
+    "lastUpdated": "2025-10-08",
+    "categories": [
+      {
+        "id": "authentication",
+        "title": "Authentication",
+        "description": "Learn how to manage your account security and access",
+        "icon": "lock",
+        "order": 1,
+        "guides": [
+          {
+            "id": "auth-001",
+            "slug": "create-account",
+            "title": "How to Create an Account",
+            "description": "Step-by-step guide to signing up for Vendda.co",
+            "keywords": ["sign up", "register", "new account", "create account", "get started", "join"],
+            "category": "authentication",
+            "order": 1,
+            "content": {
+              "introduction": "Creating an account on Vendda.co is quick and easy. Follow these steps to get started with your online store.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Visit Vendda.co",
+                  "description": "Navigate to the Vendda.co homepage in your web browser"
+                },
+                {
+                  "number": 2,
+                  "title": "Click Sign Up",
+                  "description": "Look for the 'Sign Up' or 'Get Started' button, usually located in the top right corner"
+                },
+                {
+                  "number": 3,
+                  "title": "Fill in Your Details",
+                  "description": "Enter your business name, email address, phone number, and create a strong password (minimum 8 characters)"
+                },
+                {
+                  "number": 4,
+                  "title": "Accept Terms",
+                  "description": "Read and accept the Terms and Conditions"
+                },
+                {
+                  "number": 5,
+                  "title": "Create Account",
+                  "description": "Click the 'Create Account' button to proceed"
+                },
+                {
+                  "number": 6,
+                  "title": "Verify Email",
+                  "description": "Check your email inbox for a verification link"
+                },
+                {
+                  "number": 7,
+                  "title": "Activate Account",
+                  "description": "Click the verification link to activate your account"
+                }
+              ],
+              "tips": [
+                "Use a strong password with a mix of letters, numbers, and symbols",
+                "Make sure to use a valid email address you have access to",
+                "Keep your login credentials secure"
+              ],
+              "relatedGuides": ["auth-002", "auth-003"]
+            }
+          },
+          {
+            "id": "auth-002",
+            "slug": "login",
+            "title": "How to Login",
+            "description": "Access your Vendda.co account",
+            "keywords": ["login", "sign in", "access account", "log in", "enter account"],
+            "category": "authentication",
+            "order": 2,
+            "content": {
+              "introduction": "Login to your Vendda.co account to manage your store and products.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Vendda.co",
+                  "description": "Visit the Vendda.co website"
+                },
+                {
+                  "number": 2,
+                  "title": "Click Login",
+                  "description": "Click the 'Login' button in the top right corner"
+                },
+                {
+                  "number": 3,
+                  "title": "Enter Credentials",
+                  "description": "Enter your registered email address and password"
+                },
+                {
+                  "number": 4,
+                  "title": "Sign In",
+                  "description": "Click 'Sign In' to access your dashboard"
+                }
+              ],
+              "tips": [
+                "Check 'Remember Me' if using a secure, personal device",
+                "Clear your browser cache if you experience login issues"
+              ],
+              "relatedGuides": ["auth-001", "auth-004"]
+            }
+          },
+          {
+            "id": "auth-003",
+            "slug": "change-password",
+            "title": "How to Change Password",
+            "description": "Update your account password for better security",
+            "keywords": ["change password", "update password", "new password", "password security", "modify password"],
+            "category": "authentication",
+            "order": 3,
+            "content": {
+              "introduction": "Regularly changing your password helps keep your account secure.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Login to Account",
+                  "description": "Access your Vendda.co account"
+                },
+                {
+                  "number": 2,
+                  "title": "Open Settings",
+                  "description": "Click your profile icon and select 'Settings' or 'Account Settings'"
+                },
+                {
+                  "number": 3,
+                  "title": "Navigate to Security",
+                  "description": "Go to the 'Security' or 'Password' section"
+                },
+                {
+                  "number": 4,
+                  "title": "Enter Current Password",
+                  "description": "Provide your existing password for verification"
+                },
+                {
+                  "number": 5,
+                  "title": "Enter New Password",
+                  "description": "Type your new password"
+                },
+                {
+                  "number": 6,
+                  "title": "Confirm Password",
+                  "description": "Re-enter your new password to confirm"
+                },
+                {
+                  "number": 7,
+                  "title": "Update",
+                  "description": "Click 'Update Password' to save changes"
+                }
+              ],
+              "tips": [
+                "Change your password every 3-6 months for optimal security",
+                "Don't reuse old passwords",
+                "Use a password manager to keep track of complex passwords"
+              ],
+              "relatedGuides": ["auth-002", "auth-004"]
+            }
+          },
+          {
+            "id": "auth-004",
+            "slug": "reset-password",
+            "title": "How to Reset Forgotten Password",
+            "description": "Recover access to your account if you forgot your password",
+            "keywords": ["forgot password", "reset password", "recover account", "password recovery", "lost password"],
+            "category": "authentication",
+            "order": 4,
+            "content": {
+              "introduction": "If you've forgotten your password, you can easily reset it using your email address.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Login Page",
+                  "description": "Navigate to the Vendda.co login page"
+                },
+                {
+                  "number": 2,
+                  "title": "Click Forgot Password",
+                  "description": "Click the 'Forgot Password?' link below the login form"
+                },
+                {
+                  "number": 3,
+                  "title": "Enter Email",
+                  "description": "Provide your registered email address"
+                },
+                {
+                  "number": 4,
+                  "title": "Send Reset Link",
+                  "description": "Click 'Send Reset Link'"
+                },
+                {
+                  "number": 5,
+                  "title": "Check Email",
+                  "description": "Look for the password reset email (check spam folder too)"
+                },
+                {
+                  "number": 6,
+                  "title": "Click Reset Link",
+                  "description": "Click the link in the email"
+                },
+                {
+                  "number": 7,
+                  "title": "Enter New Password",
+                  "description": "Create a new password"
+                },
+                {
+                  "number": 8,
+                  "title": "Confirm Password",
+                  "description": "Re-enter your new password"
+                },
+                {
+                  "number": 9,
+                  "title": "Reset",
+                  "description": "Click 'Reset Password' to complete"
+                }
+              ],
+              "tips": [
+                "Password reset links expire after 24 hours",
+                "If you don't receive the email, check your spam folder",
+                "Contact support if you still can't access your account"
+              ],
+              "important": "For security reasons, reset links can only be used once and expire after 24 hours.",
+              "relatedGuides": ["auth-002", "auth-003"]
+            }
+          }
+        ]
+      },
+      {
+        "id": "store-management",
+        "title": "Store Management",
+        "description": "Set up and customize your online store",
+        "icon": "store",
+        "order": 2,
+        "guides": [
+          {
+            "id": "store-001",
+            "slug": "create-store",
+            "title": "How to Create a Store",
+            "description": "Set up your first online store on Vendda.co",
+            "keywords": ["create store", "new store", "setup store", "start store", "build store"],
+            "category": "store-management",
+            "order": 1,
+            "content": {
+              "introduction": "Creating your store is the first step to selling online. Follow these steps to get your store up and running.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Access Dashboard",
+                  "description": "Login and navigate to your dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Create New Store",
+                  "description": "Click 'Create New Store' or 'Add Store' button"
+                },
+                {
+                  "number": 3,
+                  "title": "Enter Store Details",
+                  "description": "Fill in store name, description, business category, and store URL"
+                },
+                {
+                  "number": 4,
+                  "title": "Upload Logo",
+                  "description": "Add your store logo (recommended size: 500x500px)"
+                },
+                {
+                  "number": 5,
+                  "title": "Add Banner",
+                  "description": "Upload store banner image (recommended size: 1920x600px)"
+                },
+                {
+                  "number": 6,
+                  "title": "Add Contact Info",
+                  "description": "Provide contact information for your customers"
+                },
+                {
+                  "number": 7,
+                  "title": "Create Store",
+                  "description": "Click 'Create Store' and your store is live!"
+                }
+              ],
+              "tips": [
+                "Choose a memorable store name and URL that reflects your brand",
+                "Use high-quality images for logo and banner",
+                "Complete all fields for better customer trust"
+              ],
+              "relatedGuides": ["store-002", "store-005"]
+            }
+          },
+          {
+            "id": "store-002",
+            "slug": "change-template",
+            "title": "How to Change Store Template",
+            "description": "Customize the look and feel of your store",
+            "keywords": ["template", "theme", "design", "appearance", "change theme", "customize store"],
+            "category": "store-management",
+            "order": 2,
+            "content": {
+              "introduction": "Change your store's template to match your brand and style.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Open Store Settings",
+                  "description": "Go to your store dashboard and click 'Store Settings'"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Templates",
+                  "description": "Navigate to 'Templates' or 'Themes' section"
+                },
+                {
+                  "number": 3,
+                  "title": "Browse Templates",
+                  "description": "Explore available templates"
+                },
+                {
+                  "number": 4,
+                  "title": "Preview",
+                  "description": "Click 'Preview' to see how each template looks"
+                },
+                {
+                  "number": 5,
+                  "title": "Apply Template",
+                  "description": "Click 'Apply' or 'Use This Template' on your chosen design"
+                },
+                {
+                  "number": 6,
+                  "title": "Customize",
+                  "description": "Adjust colors, fonts, and layout if needed"
+                },
+                {
+                  "number": 7,
+                  "title": "Save Changes",
+                  "description": "Click 'Save Changes' to apply the new template"
+                }
+              ],
+              "tips": [
+                "Choose a template that matches your products and brand",
+                "Mobile-responsive templates work better for all devices",
+                "You can change templates anytime without losing your content"
+              ],
+              "relatedGuides": ["store-001", "store-003"]
+            }
+          },
+          {
+            "id": "store-003",
+            "slug": "enable-payment-gateway",
+            "title": "How to Enable Payment Gateway",
+            "description": "Set up payment methods to accept online payments",
+            "keywords": ["payment", "gateway", "paystack", "flutterwave", "stripe", "accept payment", "payment method"],
+            "category": "store-management",
+            "order": 3,
+            "content": {
+              "introduction": "Enable payment gateways to start accepting payments from customers.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Navigate to Settings",
+                  "description": "Go to 'Store Settings'"
+                },
+                {
+                  "number": 2,
+                  "title": "Payment Methods",
+                  "description": "Click 'Payment Methods' or 'Payment Gateway'"
+                },
+                {
+                  "number": 3,
+                  "title": "Select Provider",
+                  "description": "Choose your preferred payment provider (Paystack, Flutterwave, Stripe, etc.)"
+                },
+                {
+                  "number": 4,
+                  "title": "Connect Gateway",
+                  "description": "Click 'Connect' or 'Enable' next to your chosen gateway"
+                },
+                {
+                  "number": 5,
+                  "title": "Enter API Credentials",
+                  "description": "Provide your Public Key and Secret Key from your payment provider"
+                },
+                {
+                  "number": 6,
+                  "title": "Configure Preferences",
+                  "description": "Set currency, payment methods to accept, and transaction fee handling"
+                },
+                {
+                  "number": 7,
+                  "title": "Activate",
+                  "description": "Click 'Save' or 'Activate'"
+                },
+                {
+                  "number": 8,
+                  "title": "Test Payment",
+                  "description": "Make a small test purchase to ensure everything works"
+                }
+              ],
+              "tips": [
+                "Keep your API keys secure and never share them publicly",
+                "Enable multiple payment methods for customer convenience",
+                "Test in sandbox mode before going live"
+              ],
+              "important": "You must have an account with the payment provider before integrating.",
+              "relatedGuides": ["store-001", "billing-001"]
+            }
+          },
+          {
+            "id": "store-004",
+            "slug": "enable-whatsapp-notifications",
+            "title": "How to Enable WhatsApp Notifications",
+            "description": "Get instant order updates via WhatsApp",
+            "keywords": ["whatsapp", "notifications", "alerts", "messaging", "order notification"],
+            "category": "store-management",
+            "order": 4,
+            "content": {
+              "introduction": "Enable WhatsApp notifications to receive instant updates about orders and customer messages.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Open Settings",
+                  "description": "Go to 'Store Settings'"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Notifications",
+                  "description": "Click 'Notifications' or 'Communication'"
+                },
+                {
+                  "number": 3,
+                  "title": "Enable WhatsApp",
+                  "description": "Toggle the switch to 'Enable' WhatsApp Notifications"
+                },
+                {
+                  "number": 4,
+                  "title": "Enter Number",
+                  "description": "Provide your WhatsApp Business number with country code"
+                },
+                {
+                  "number": 5,
+                  "title": "Configure Preferences",
+                  "description": "Select which notifications to receive (new orders, status updates, messages)"
+                },
+                {
+                  "number": 6,
+                  "title": "Verify Number",
+                  "description": "Click 'Verify Number' and enter the verification code sent to you"
+                },
+                {
+                  "number": 7,
+                  "title": "Save Settings",
+                  "description": "Click 'Save Settings' to activate notifications"
+                }
+              ],
+              "tips": [
+                "Use WhatsApp Business for better customer management features",
+                "Respond quickly to notifications to improve customer satisfaction",
+                "You can customize which notifications to receive"
+              ],
+              "relatedGuides": ["order-001", "order-002"]
+            }
+          },
+          {
+            "id": "store-005",
+            "slug": "add-product-categories",
+            "title": "How to Add Product Categories",
+            "description": "Organize your products into categories",
+            "keywords": ["categories", "product categories", "organize products", "product organization"],
+            "category": "store-management",
+            "order": 5,
+            "content": {
+              "introduction": "Categories help customers find products easily and improve your store navigation.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Products",
+                  "description": "Navigate to 'Products' from your dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Categories",
+                  "description": "Click 'Categories' in the sidebar"
+                },
+                {
+                  "number": 3,
+                  "title": "Add New Category",
+                  "description": "Click 'Add New Category' or 'Create Category'"
+                },
+                {
+                  "number": 4,
+                  "title": "Enter Details",
+                  "description": "Provide category name (e.g., Electronics, Clothing, Food Items)"
+                },
+                {
+                  "number": 5,
+                  "title": "Add Description",
+                  "description": "Write a brief description (optional)"
+                },
+                {
+                  "number": 6,
+                  "title": "Upload Image",
+                  "description": "Add a category image (optional)"
+                },
+                {
+                  "number": 7,
+                  "title": "Create Subcategories",
+                  "description": "Add subcategories if needed (e.g., under Clothing: Men, Women, Kids)"
+                },
+                {
+                  "number": 8,
+                  "title": "Save Category",
+                  "description": "Click 'Save Category'"
+                }
+              ],
+              "tips": [
+                "Keep categories simple and intuitive for easy navigation",
+                "Don't create too many categories - 5-10 main categories work best",
+                "Use subcategories for better organization"
+              ],
+              "relatedGuides": ["product-001", "store-001"]
+            }
+          },
+          {
+            "id": "store-006",
+            "slug": "add-store-locations",
+            "title": "How to Add Store Locations",
+            "description": "Add physical store locations or branches",
+            "keywords": ["locations", "store location", "branches", "physical store", "address"],
+            "category": "store-management",
+            "order": 6,
+            "content": {
+              "introduction": "Add your physical store locations to help customers find you and enable in-store pickups.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Open Settings",
+                  "description": "Navigate to 'Store Settings'"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Locations",
+                  "description": "Click 'Locations' or 'Store Locations'"
+                },
+                {
+                  "number": 3,
+                  "title": "Add Location",
+                  "description": "Click 'Add Location'"
+                },
+                {
+                  "number": 4,
+                  "title": "Enter Details",
+                  "description": "Provide location name/branch name, full address, city, and state"
+                },
+                {
+                  "number": 5,
+                  "title": "Add Contact Info",
+                  "description": "Include phone number and email (optional)"
+                },
+                {
+                  "number": 6,
+                  "title": "Set Business Hours",
+                  "description": "Add operating hours for this location"
+                },
+                {
+                  "number": 7,
+                  "title": "Configure Options",
+                  "description": "Mark as 'Primary Location' if needed and enable/disable for pickups"
+                },
+                {
+                  "number": 8,
+                  "title": "Save Location",
+                  "description": "Click 'Save Location'"
+                }
+              ],
+              "tips": [
+                "Add accurate addresses to help customers find you easily",
+                "Include clear directions or landmarks",
+                "Update business hours during holidays"
+              ],
+              "relatedGuides": ["store-007", "store-001"]
+            }
+          },
+          {
+            "id": "store-007",
+            "slug": "add-delivery-locations",
+            "title": "How to Add Delivery Locations",
+            "description": "Set up delivery zones and shipping fees",
+            "keywords": ["delivery", "shipping", "delivery zones", "shipping fees", "delivery areas"],
+            "category": "store-management",
+            "order": 7,
+            "content": {
+              "introduction": "Define your delivery areas and set appropriate shipping fees for each zone.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Settings",
+                  "description": "Navigate to 'Store Settings'"
+                },
+                {
+                  "number": 2,
+                  "title": "Shipping & Delivery",
+                  "description": "Select 'Shipping & Delivery' or 'Delivery Locations'"
+                },
+                {
+                  "number": 3,
+                  "title": "Add Location",
+                  "description": "Click 'Add Delivery Location'"
+                },
+                {
+                  "number": 4,
+                  "title": "Enter Zone Details",
+                  "description": "Provide location name (e.g., Lagos Island, Ikeja) and delivery fee"
+                },
+                {
+                  "number": 5,
+                  "title": "Set Delivery Time",
+                  "description": "Add estimated delivery time for this area"
+                },
+                {
+                  "number": 6,
+                  "title": "Group Locations",
+                  "description": "Organize by city, state, postal code, or custom zones"
+                },
+                {
+                  "number": 7,
+                  "title": "Configure Options",
+                  "description": "Set delivery options: standard, express, or free delivery threshold"
+                },
+                {
+                  "number": 8,
+                  "title": "Save",
+                  "description": "Click 'Save' and add more zones as needed"
+                }
+              ],
+              "tips": [
+                "Offer free delivery for orders above a certain amount to encourage larger purchases",
+                "Be realistic with delivery timeframes",
+                "Consider offering express delivery for additional fees"
+              ],
+              "relatedGuides": ["store-006", "order-001"]
+            }
+          },
+          {
+            "id": "store-008",
+            "slug": "add-refund-return-policy",
+            "title": "How to Add Refund and Return Policy Page",
+            "description": "Create clear refund and return policies for customers",
+            "keywords": ["refund", "return", "policy", "return policy", "refund policy"],
+            "category": "store-management",
+            "order": 8,
+            "content": {
+              "introduction": "A clear refund and return policy builds customer trust and reduces disputes.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Settings",
+                  "description": "Navigate to 'Store Settings'"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Pages",
+                  "description": "Click 'Pages' or 'Legal Pages'"
+                },
+                {
+                  "number": 3,
+                  "title": "Choose Policy Type",
+                  "description": "Select 'Refund & Return Policy' or 'Add New Page'"
+                },
+                {
+                  "number": 4,
+                  "title": "Write Policy",
+                  "description": "Enter return eligibility (timeframe, condition), non-returnable items, refund process, and timeline"
+                },
+                {
+                  "number": 5,
+                  "title": "Format Content",
+                  "description": "Use clear headings and bullet points for readability"
+                },
+                {
+                  "number": 6,
+                  "title": "Enable Footer",
+                  "description": "Toggle 'Show in footer' to make it easily accessible"
+                },
+                {
+                  "number": 7,
+                  "title": "Preview",
+                  "description": "Preview the page before publishing"
+                },
+                {
+                  "number": 8,
+                  "title": "Publish",
+                  "description": "Click 'Publish' or 'Save'"
+                }
+              ],
+              "tips": [
+                "Be clear about return windows (7, 14, or 30 days)",
+                "Specify which items cannot be returned",
+                "Include step-by-step return instructions",
+                "State refund timelines clearly"
+              ],
+              "example": {
+                "returnWindow": "Items can be returned within 14 days of delivery",
+                "eligibleItems": "Unopened, unused items in original packaging",
+                "refundTimeline": "5-7 business days after we receive the item"
+              },
+              "relatedGuides": ["store-009", "order-003"]
+            }
+          },
+          {
+            "id": "store-009",
+            "slug": "add-faqs",
+            "title": "How to Add FAQs and Answers",
+            "description": "Create a helpful FAQ section for customers",
+            "keywords": ["faq", "frequently asked questions", "help", "customer support", "questions"],
+            "category": "store-management",
+            "order": 9,
+            "content": {
+              "introduction": "FAQs help customers find answers quickly and reduce support inquiries.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Navigate to Settings",
+                  "description": "Go to 'Store Settings'"
+                },
+                {
+                  "number": 2,
+                  "title": "Select FAQ",
+                  "description": "Click 'FAQ' or 'Help Center'"
+                },
+                {
+                  "number": 3,
+                  "title": "Add New FAQ",
+                  "description": "Click 'Add New FAQ' or 'Create FAQ'"
+                },
+                {
+                  "number": 4,
+                  "title": "Enter Question",
+                  "description": "Type your question in the question field"
+                },
+                {
+                  "number": 5,
+                  "title": "Write Answer",
+                  "description": "Provide a detailed, helpful answer"
+                },
+                {
+                  "number": 6,
+                  "title": "Categorize",
+                  "description": "Assign to category (Shipping, Payment, Products, Returns)"
+                },
+                {
+                  "number": 7,
+                  "title": "Arrange Order",
+                  "description": "Drag and drop FAQs to prioritize important questions"
+                },
+                {
+                  "number": 8,
+                  "title": "Save FAQ",
+                  "description": "Click 'Save FAQ' and repeat for more questions"
+                }
+              ],
+              "tips": [
+                "Answer the most common questions first",
+                "Keep answers concise but complete",
+                "Use simple language",
+                "Update FAQs based on customer inquiries"
+              ],
+              "commonQuestions": [
+                "Do you ship nationwide?",
+                "What payment methods do you accept?",
+                "How long does delivery take?",
+                "Can I track my order?",
+                "What is your return policy?"
+              ],
+              "relatedGuides": ["store-008", "order-001"]
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-management",
+        "title": "Product Management",
+        "description": "Add, edit, and manage your product inventory",
+        "icon": "package",
+        "order": 3,
+        "guides": [
+          {
+            "id": "product-001",
+            "slug": "add-product",
+            "title": "How to Add a Product",
+            "description": "List your first product for sale",
+            "keywords": ["add product", "new product", "list product", "create product", "product listing"],
+            "category": "product-management",
+            "order": 1,
+            "content": {
+              "introduction": "Adding products is easy! Follow these steps to create your first product listing.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Products",
+                  "description": "Click 'Products' from your dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Add New Product",
+                  "description": "Click 'Add New Product' or 'Create Product'"
+                },
+                {
+                  "number": 3,
+                  "title": "Enter Product Details",
+                  "description": "Fill in product name, description, category, and price"
+                },
+                {
+                  "number": 4,
+                  "title": "Add Pricing",
+                  "description": "Set price and compare at price (if on sale)"
+                },
+                {
+                  "number": 5,
+                  "title": "Upload Images",
+                  "description": "Add multiple high-quality images (1000x1000px or higher)"
+                },
+                {
+                  "number": 6,
+                  "title": "Set Inventory",
+                  "description": "Enter stock quantity, enable inventory tracking, set low stock alerts"
+                },
+                {
+                  "number": 7,
+                  "title": "Add Variants",
+                  "description": "Create variants (size, color, etc.) if applicable"
+                },
+                {
+                  "number": 8,
+                  "title": "Configure Shipping",
+                  "description": "Add weight and dimensions"
+                },
+                {
+                  "number": 9,
+                  "title": "SEO Settings",
+                  "description": "Add meta title and description (optional)"
+                },
+                {
+                  "number": 10,
+                  "title": "Publish",
+                  "description": "Set status to 'Active' and click 'Save Product'"
+                }
+              ],
+              "tips": [
+                "Use clear, professional photos from multiple angles",
+                "Write compelling descriptions highlighting benefits",
+                "Include specifications and dimensions",
+                "Add keywords customers might search for",
+                "Set competitive prices"
+              ],
+              "relatedGuides": ["product-002", "store-005"]
+            }
+          },
+          {
+            "id": "product-002",
+            "slug": "edit-product",
+            "title": "How to Edit a Product",
+            "description": "Update existing product information",
+            "keywords": ["edit product", "update product", "modify product", "change product"],
+            "category": "product-management",
+            "order": 2,
+            "content": {
+              "introduction": "Easily update your product information whenever needed.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Navigate to Products",
+                  "description": "Go to 'Products' in your dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Find Product",
+                  "description": "Use search bar, filter by category, or scroll to find the product"
+                },
+                {
+                  "number": 3,
+                  "title": "Open Product",
+                  "description": "Click on the product name or 'Edit' button"
+                },
+                {
+                  "number": 4,
+                  "title": "Make Changes",
+                  "description": "Update any field: text, images, prices, stock levels, etc."
+                },
+                {
+                  "number": 5,
+                  "title": "Review Changes",
+                  "description": "Double-check all modifications"
+                },
+                {
+                  "number": 6,
+                  "title": "Update Product",
+                  "description": "Click 'Update Product' or 'Save Changes'"
+                }
+              ],
+              "tips": [
+                "Regularly update product information, especially stock levels and prices",
+                "Update images if you get better product photos",
+                "Keep descriptions current with latest features",
+                "Changes go live immediately after saving"
+              ],
+              "relatedGuides": ["product-001", "product-003"]
+            }
+          },
+          {
+            "id": "product-003",
+            "slug": "delete-product",
+            "title": "How to Delete a Product",
+            "description": "Remove products from your store",
+            "keywords": ["delete product", "remove product", "archive product"],
+            "category": "product-management",
+            "order": 3,
+            "content": {
+              "introduction": "Remove products that are no longer available or needed.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Products",
+                  "description": "Navigate to 'Products' section"
+                },
+                {
+                  "number": 2,
+                  "title": "Find Product",
+                  "description": "Locate the product you want to delete"
+                },
+                {
+                  "number": 3,
+                  "title": "Select Product",
+                  "description": "Click on the product or select using checkbox"
+                },
+                {
+                  "number": 4,
+                  "title": "Delete",
+                  "description": "Click 'Delete' or trash icon"
+                },
+                {
+                  "number": 5,
+                  "title": "Confirm Deletion",
+                  "description": "Confirm when prompted (this action cannot be undone)"
+                }
+              ],
+              "tips": [
+                "Consider archiving instead of deleting if you might restock",
+                "Set product status to 'Draft' to hide without deleting",
+                "Deleted products cannot be recovered",
+                "Archive keeps product data for future reference"
+              ],
+              "important": "Deletion is permanent and cannot be undone. Consider archiving instead.",
+              "relatedGuides": ["product-001", "product-002"]
+            }
+          }
+        ]
+      },
+      {
+        "id": "order-management",
+        "title": "Order Management",
+        "description": "Process and manage customer orders",
+        "icon": "shopping-cart",
+        "order": 4,
+        "guides": [
+          {
+            "id": "order-001",
+            "slug": "update-order-status",
+            "title": "How to Update Order Status",
+            "description": "Keep customers informed about their order progress",
+            "keywords": ["order status", "update order", "order tracking", "fulfillment", "processing"],
+            "category": "order-management",
+            "order": 1,
+            "content": {
+              "introduction": "Updating order status keeps customers informed and builds trust.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Orders",
+                  "description": "Navigate to 'Orders' in your dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Order",
+                  "description": "Click on the order you want to update"
+                },
+                {
+                  "number": 3,
+                  "title": "View Details",
+                  "description": "Review the order details"
+                },
+                {
+                  "number": 4,
+                  "title": "Find Status Section",
+                  "description": "Locate the 'Order Status' section"
+                },
+                {
+                  "number": 5,
+                  "title": "Select New Status",
+                  "description": "Choose from: Pending, Processing, Shipped, Out for Delivery, Delivered, or Cancelled"
+                },
+                {
+                  "number": 6,
+                  "title": "Add Tracking Info",
+                  "description": "Include tracking number if order is shipped (optional)"
+                },
+                {
+                  "number": 7,
+                  "title": "Add Notes",
+                  "description": "Include internal notes if needed (only visible to you)"
+                },
+                {
+                  "number": 8,
+                  "title": "Update",
+                  "description": "Click 'Update' or 'Save'"
+                }
+              ],
+              "tips": [
+                "Update order status promptly to keep customers informed",
+                "Add tracking numbers for better customer experience",
+                "Customers receive automatic notifications when status changes",
+                "Include estimated delivery dates when possible"
+              ],
+              "statusMeanings": {
+                "Pending": "Order received, awaiting processing",
+                "Processing": "Order is being prepared",
+                "Shipped": "Order has been dispatched",
+                "OutForDelivery": "Order is with courier",
+                "Delivered": "Order completed successfully",
+                "Cancelled": "Order cancelled"
+              },
+              "relatedGuides": ["order-002", "store-004"]
+            }
+          },
+          {
+            "id": "order-002",
+            "slug": "cancel-order",
+            "title": "How to Cancel an Order",
+            "description": "Cancel orders and process refunds",
+            "keywords": ["cancel order", "order cancellation", "refund", "cancel"],
+            "category": "order-management",
+            "order": 2,
+            "content": {
+              "introduction": "Cancel orders when items are unavailable or customer requests cancellation.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Navigate to Orders",
+                  "description": "Go to 'Orders' section"
+                },
+                {
+                  "number": 2,
+                  "title": "Find Order",
+                  "description": "Locate and click on the order to cancel"
+                },
+                {
+                  "number": 3,
+                  "title": "Review Details",
+                  "description": "Confirm it's the correct order"
+                },
+                {
+                  "number": 4,
+                  "title": "Cancel Order",
+                  "description": "Click 'Cancel Order' button"
+                },
+                {
+                  "number": 5,
+                  "title": "Select Reason",
+                  "description": "Choose cancellation reason: Out of stock, Customer requested, Payment failed, Other"
+                },
+                {
+                  "number": 6,
+                  "title": "Choose Refund Option",
+                  "description": "Select: Full refund, Partial refund, or No refund"
+                },
+                {
+                  "number": 7,
+                  "title": "Add Notes",
+                  "description": "Include cancellation notes (optional)"
+                },
+                {
+                  "number": 8,
+                  "title": "Confirm",
+                  "description": "Confirm cancellation"
+                }
+              ],
+              "tips": [
+                "Cancel orders as soon as possible if items cannot be fulfilled",
+                "Process refunds promptly to maintain customer satisfaction",
+                "You can only cancel orders that haven't been shipped",
+                "Communicate with customers before cancelling",
+                "Always provide a clear reason for cancellation"
+              ],
+              "important": "Customers are automatically notified when orders are cancelled.",
+              "relatedGuides": ["order-001", "store-008"]
+            }
+          }
+        ]
+      },
+      {
+        "id": "billing-subscription",
+        "title": "Billings and Subscription",
+        "description": "Manage your subscription plans and payments",
+        "icon": "credit-card",
+        "order": 5,
+        "guides": [
+          {
+            "id": "billing-001",
+            "slug": "upgrade-subscription",
+            "title": "How to Upgrade Subscription Plan",
+            "description": "Upgrade to access more features and capabilities",
+            "keywords": ["upgrade", "subscription", "plan", "upgrade plan", "premium"],
+            "category": "billing-subscription",
+            "order": 1,
+            "content": {
+              "introduction": "Upgrade your subscription to unlock more features and grow your business.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Access Account",
+                  "description": "Click your profile icon or 'Account'"
+                },
+                {
+                  "number": 2,
+                  "title": "Go to Billing",
+                  "description": "Select 'Billing' or 'Subscription'"
+                },
+                {
+                  "number": 3,
+                  "title": "View Current Plan",
+                  "description": "Review your current plan details"
+                },
+                {
+                  "number": 4,
+                  "title": "Upgrade Plan",
+                  "description": "Click 'Upgrade Plan' or 'Change Plan'"
+                },
+                {
+                  "number": 5,
+                  "title": "Compare Plans",
+                  "description": "Review available plans, features, and pricing"
+                },
+                {
+                  "number": 6,
+                  "title": "Select Plan",
+                  "description": "Choose the plan you want"
+                },
+                {
+                  "number": 7,
+                  "title": "Review Charges",
+                  "description": "Check new plan price, pro-rated credit, and next billing date"
+                },
+                {
+                  "number": 8,
+                  "title": "Confirm Payment",
+                  "description": "Verify payment method"
+                },
+                {
+                  "number": 9,
+                  "title": "Complete Upgrade",
+                  "description": "Click 'Confirm Upgrade'"
+                }
+              ],
+              "tips": [
+                "Upgrade when you need more products or features",
+                "Pro-rated credits are applied automatically",
+                "Plan upgrades take effect immediately",
+                "You can downgrade later if needed"
+              ],
+              "benefits": [
+                "More products",
+                "Additional store features",
+                "Priority support",
+                "Remove Vendda branding",
+                "Custom domain",
+                "Advanced analytics"
+              ],
+              "relatedGuides": ["billing-002", "store-001"]
+            }
+          },
+          {
+            "id": "billing-002",
+            "slug": "cancel-subscription",
+            "title": "How to Cancel Subscription Plan",
+            "description": "Cancel or downgrade your subscription",
+            "keywords": ["cancel subscription", "cancel plan", "downgrade", "stop subscription"],
+            "category": "billing-subscription",
+            "order": 2,
+            "content": {
+              "introduction": "Cancel your subscription if you need to pause or stop your store.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Account",
+                  "description": "Navigate to 'Account Settings'"
+                },
+                {
+                  "number": 2,
+                  "title": "Access Billing",
+                  "description": "Click 'Billing' or 'Subscription'"
+                },
+                {
+                  "number": 3,
+                  "title": "View Subscription",
+                  "description": "Review your current subscription details"
+                },
+                {
+                  "number": 4,
+                  "title": "Cancel Subscription",
+                  "description": "Click 'Cancel Subscription' or 'Manage Plan'"
+                },
+                {
+                  "number": 5,
+                  "title": "Choose Option",
+                  "description": "Select: Cancel at end of billing period (recommended) or Cancel immediately"
+                },
+                {
+                  "number": 6,
+                  "title": "Provide Reason",
+                  "description": "Select cancellation reason (optional)"
+                },
+                {
+                  "number": 7,
+                  "title": "Review Impact",
+                  "description": "See what you'll lose: store access, features, data retention"
+                },
+                {
+                  "number": 8,
+                  "title": "Confirm",
+                  "description": "Click 'Confirm Cancellation'"
+                }
+              ],
+              "tips": [
+                "Download your data before cancellation if needed",
+                "Cancelled subscriptions can be reactivated",
+                "Outstanding payments must be settled",
+                "Consider downgrading instead of cancelling",
+                "Your store remains active until end of paid period"
+              ],
+              "important": "Your store will remain active until the end of your current billing period.",
+              "relatedGuides": ["billing-001", "auth-001"]
+            }
+          }
+        ]
+      }
+    ],
+    "searchIndex": {
+      "buildDate": "2025-10-08",
+      "totalGuides": 21,
+      "allKeywords": [
+        "sign up", "register", "new account", "create account", "get started", "join",
+        "login", "sign in", "access account", "log in", "enter account",
+        "change password", "update password", "new password", "password security", "modify password",
+        "forgot password", "reset password", "recover account", "password recovery", "lost password",
+        "create store", "new store", "setup store", "start store", "build store",
+        "template", "theme", "design", "appearance", "change theme", "customize store",
+        "payment", "gateway", "paystack", "flutterwave", "stripe", "accept payment", "payment method",
+        "whatsapp", "notifications", "alerts", "messaging", "order notification",
+        "categories", "product categories", "organize products", "product organization",
+        "locations", "store location", "branches", "physical store", "address",
+        "delivery", "shipping", "delivery zones", "shipping fees", "delivery areas",
+        "refund", "return", "policy", "return policy", "refund policy",
+        "faq", "frequently asked questions", "help", "customer support", "questions",
+        "add product", "new product", "list product", "create product", "product listing",
+        "edit product", "update product", "modify product", "change product",
+        "delete product", "remove product", "archive product",
+        "order status", "update order", "order tracking", "fulfillment", "processing",
+        "cancel order", "order cancellation", "refund", "cancel",
+        "upgrade", "subscription", "plan", "upgrade plan", "premium",
+        "cancel subscription", "cancel plan", "downgrade", "stop subscription"
+      ]
+    },
+    "navigation": {
+      "previousNext": {
+        "auth-001": {"next": "auth-002"},
+        "auth-002": {"previous": "auth-001", "next": "auth-003"},
+        "auth-003": {"previous": "auth-002", "next": "auth-004"},
+        "auth-004": {"previous": "auth-003", "next": "store-001"},
+        "store-001": {"previous": "auth-004", "next": "store-002"},
+        "store-002": {"previous": "store-001", "next": "store-003"},
+        "store-003": {"previous": "store-002", "next": "store-004"},
+        "store-004": {"previous": "store-003", "next": "store-005"},
+        "store-005": {"previous": "store-004", "next": "store-006"},
+        "store-006": {"previous": "store-005", "next": "store-007"},
+        "store-007": {"previous": "store-006", "next": "store-008"},
+        "store-008": {"previous": "store-007", "next": "store-009"},
+        "store-009": {"previous": "store-008", "next": "product-001"},
+        "product-001": {"previous": "store-009", "next": "product-002"},
+        "product-002": {"previous": "product-001", "next": "product-003"},
+        "product-003": {"previous": "product-002", "next": "order-001"},
+        "order-001": {"previous": "product-003", "next": "order-002"},
+        "order-002": {"previous": "order-001", "next": "billing-001"},
+        "billing-001": {"previous": "order-002", "next": "billing-002"},
+        "billing-002": {"previous": "billing-001"}
+      }
+    },
+    "metadata": {
+      "supportEmail": "support@vendda.co",
+      "supportWhatsApp": "+234 XXX XXX XXXX",
+      "liveChat": "Available Mon-Fri, 9am-5pm WAT",
+      "documentationUrl": "https://vendda.co/docs",
+      "apiDocumentationUrl": "https://docs.vendda.co/api"
+    }
+  }
+}
