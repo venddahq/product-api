@@ -24,7 +24,7 @@ export async function GET(request: NextRequest) {
     }, { 
       headers: corsHeaders(origin) 
     });
-  } catch (error) {
+  } catch (_error) {
     return NextResponse.json({
       success: false,
       error: 'Failed to fetch documentation'

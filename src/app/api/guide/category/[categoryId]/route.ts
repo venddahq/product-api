@@ -35,7 +35,7 @@ export async function GET(
     }, { 
       headers: corsHeaders(origin) 
     });
-  } catch (error) {
+  } catch (_error) {
     return NextResponse.json({
       success: false,
       error: 'Failed to fetch category'

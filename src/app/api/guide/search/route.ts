@@ -2,6 +2,21 @@ import { corsHeaders } from "@/utils/api.origin-header";
 import { NextRequest, NextResponse } from "next/server";
 import docs from "@/data/product-guide.json"
 
+// Define the type for search results
+interface SearchResult {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  category: {
+    id: string;
+    title: string;
+    icon: string;
+  };
+  matchScore: number;
+  matchType: string;
+}
+
 export async function OPTIONS(request: NextRequest) {
   const origin = request.headers.get('origin');
   return NextResponse.json({}, { headers: corsHeaders(origin) });
@@ -23,7 +38,7 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    const results: any[] = [];
+    const results: SearchResult[] = [];
     const lowerQuery = query.toLowerCase().trim();
 
     docs.documentation.categories.forEach(category => {
@@ -86,7 +101,7 @@ export async function GET(request: NextRequest) {
     }, { 
       headers: corsHeaders(origin) 
     });
-  } catch (error) {
+  } catch (_error) {
     return NextResponse.json({
       success: false,
       error: 'Search failed'

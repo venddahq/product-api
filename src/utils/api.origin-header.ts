@@ -1,6 +1,3 @@
-import { NextRequest, NextResponse } from 'next/server';
-
-
 import { ALLOWED_ORIGINS } from "./api.origin-config";
 
 export function corsHeaders(origin: string | null) {
