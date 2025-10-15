@@ -2,8 +2,8 @@
   "documentation": {
     "title": "Vendda.co Product Guide",
     "description": "Complete guide for business owners to manage their online store",
-    "version": "1.0",
-    "lastUpdated": "2025-10-08",
+    "version": "1.1",
+    "lastUpdated": "2025-10-15",
     "categories": [
       {
         "id": "authentication",
@@ -26,12 +26,12 @@
                 {
                   "number": 1,
                   "title": "Visit Vendda.co",
-                  "description": "Navigate to the Vendda.co homepage in your web browser"
+                  "description": "Navigate to the https://Vendda.co homepage in your web browser"
                 },
                 {
                   "number": 2,
                   "title": "Click Sign Up",
-                  "description": "Look for the 'Sign Up' or 'Get Started' button, usually located in the top right corner"
+                  "description": "Look for the 'Sign Up' or 'Get Started' button, usually located in the top right corner, or simply go to https://Vendda.co/register"
                 },
                 {
                   "number": 3,
@@ -51,12 +51,12 @@
                 {
                   "number": 6,
                   "title": "Verify Email",
-                  "description": "Check your email inbox for a verification link"
+                  "description": "Check your email inbox for a verification OTP"
                 },
                 {
                   "number": 7,
                   "title": "Activate Account",
-                  "description": "Click the verification link to activate your account"
+                  "description": "Enter the verification OTP to activate your account"
                 }
               ],
               "tips": [
@@ -64,7 +64,8 @@
                 "Make sure to use a valid email address you have access to",
                 "Keep your login credentials secure"
               ],
-              "relatedGuides": ["auth-002", "auth-003"]
+              "relatedGuides": ["auth-002", "auth-003", "auth-005"],
+              "videoLink": ""
             }
           },
           {
@@ -86,7 +87,7 @@
                 {
                   "number": 2,
                   "title": "Click Login",
-                  "description": "Click the 'Login' button in the top right corner"
+                  "description": "Click the 'Login' button in the top right corner or go to https://vendda.co/login"
                 },
                 {
                   "number": 3,
@@ -103,7 +104,8 @@
                 "Check 'Remember Me' if using a secure, personal device",
                 "Clear your browser cache if you experience login issues"
               ],
-              "relatedGuides": ["auth-001", "auth-004"]
+              "relatedGuides": ["auth-001", "auth-004"],
+              "videoLink": ""
             }
           },
           {
@@ -134,21 +136,16 @@
                 },
                 {
                   "number": 4,
-                  "title": "Enter Current Password",
-                  "description": "Provide your existing password for verification"
-                },
-                {
-                  "number": 5,
                   "title": "Enter New Password",
                   "description": "Type your new password"
                 },
                 {
-                  "number": 6,
+                  "number": 5,
                   "title": "Confirm Password",
                   "description": "Re-enter your new password to confirm"
                 },
                 {
-                  "number": 7,
+                  "number": 6,
                   "title": "Update",
                   "description": "Click 'Update Password' to save changes"
                 }
@@ -158,7 +155,8 @@
                 "Don't reuse old passwords",
                 "Use a password manager to keep track of complex passwords"
               ],
-              "relatedGuides": ["auth-002", "auth-004"]
+              "relatedGuides": ["auth-002", "auth-004"],
+              "videoLink": ""
             }
           },
           {
@@ -219,12 +217,65 @@
                 }
               ],
               "tips": [
+                "Make sure you use the same browser all through the process",
                 "Password reset links expire after 24 hours",
                 "If you don't receive the email, check your spam folder",
                 "Contact support if you still can't access your account"
               ],
               "important": "For security reasons, reset links can only be used once and expire after 24 hours.",
-              "relatedGuides": ["auth-002", "auth-003"]
+              "relatedGuides": ["auth-002", "auth-003"],
+              "videoLink": ""
+            }
+          },
+          {
+            "id": "auth-005",
+            "slug": "link-unlink-google-account",
+            "title": "How to Link or Unlink a Google Account",
+            "description": "Connect or disconnect your Google account for easier login",
+            "keywords": ["google account", "link google", "unlink google", "google login", "integrations"],
+            "category": "authentication",
+            "order": 5,
+            "content": {
+              "introduction": "Linking a Google account allows you to sign in to Vendda.co quickly and securely. You can also unlink it if needed.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Log in to Vendda.co",
+                  "description": "Access your Vendda.co account"
+                },
+                {
+                  "number": 2,
+                  "title": "Go to Settings",
+                  "description": "Click your profile icon and select 'Settings' or 'Account Settings'"
+                },
+                {
+                  "number": 3,
+                  "title": "Navigate to Integrations",
+                  "description": "Go to the 'Integrations' section"
+                },
+                {
+                  "number": 4,
+                  "title": "Link Google Account",
+                  "description": "Click 'Connect with Google', sign in with your Google account, and authorize Vendda.co"
+                },
+                {
+                  "number": 5,
+                  "title": "Unlink Google Account",
+                  "description": "To unlink, click 'Disconnect' next to the Google account option"
+                },
+                {
+                  "number": 6,
+                  "title": "Save Changes",
+                  "description": "Click 'Save' to confirm your changes"
+                }
+              ],
+              "tips": [
+                "Ensure you have access to the Google account you link",
+                "Unlinking won't affect your Vendda.co account data",
+                "Use a Google account you regularly access for seamless login"
+              ],
+              "relatedGuides": ["auth-001", "auth-002"],
+              "videoLink": ""
             }
           }
         ]
@@ -260,35 +311,20 @@
                 {
                   "number": 3,
                   "title": "Enter Store Details",
-                  "description": "Fill in store name, description, business category, and store URL"
+                  "description": "Fill in store name, description, business category, and store username"
                 },
                 {
                   "number": 4,
-                  "title": "Upload Logo",
-                  "description": "Add your store logo (recommended size: 500x500px)"
-                },
-                {
-                  "number": 5,
-                  "title": "Add Banner",
-                  "description": "Upload store banner image (recommended size: 1920x600px)"
-                },
-                {
-                  "number": 6,
-                  "title": "Add Contact Info",
-                  "description": "Provide contact information for your customers"
-                },
-                {
-                  "number": 7,
                   "title": "Create Store",
                   "description": "Click 'Create Store' and your store is live!"
                 }
               ],
               "tips": [
-                "Choose a memorable store name and URL that reflects your brand",
-                "Use high-quality images for logo and banner",
-                "Complete all fields for better customer trust"
+                "Choose a memorable store name and username that reflects your brand"
               ],
-              "relatedGuides": ["store-002", "store-005"]
+              "important": "The store username become your website link... e.g nikestore.vendda.co",
+              "relatedGuides": ["store-002", "store-005"],
+              "videoLink": ""
             }
           },
           {
@@ -305,11 +341,11 @@
                 {
                   "number": 1,
                   "title": "Open Store Settings",
-                  "description": "Go to your store dashboard and click 'Store Settings'"
+                  "description": "Go to your store dashboard and click 'Store'"
                 },
                 {
                   "number": 2,
-                  "title": "Select Templates",
+                  "title": "Click Branding",
                   "description": "Navigate to 'Templates' or 'Themes' section"
                 },
                 {
@@ -330,7 +366,7 @@
                 {
                   "number": 6,
                   "title": "Customize",
-                  "description": "Adjust colors, fonts, and layout if needed"
+                  "description": "Adjust color if needed"
                 },
                 {
                   "number": 7,
@@ -343,7 +379,8 @@
                 "Mobile-responsive templates work better for all devices",
                 "You can change templates anytime without losing your content"
               ],
-              "relatedGuides": ["store-001", "store-003"]
+              "relatedGuides": ["store-001", "store-003"],
+              "videoLink": ""
             }
           },
           {
@@ -359,8 +396,8 @@
               "steps": [
                 {
                   "number": 1,
-                  "title": "Navigate to Settings",
-                  "description": "Go to 'Store Settings'"
+                  "title": "Navigate to Store",
+                  "description": "Go to 'Store'"
                 },
                 {
                   "number": 2,
@@ -369,18 +406,8 @@
                 },
                 {
                   "number": 3,
-                  "title": "Select Provider",
-                  "description": "Choose your preferred payment provider (Paystack, Flutterwave, Stripe, etc.)"
-                },
-                {
-                  "number": 4,
-                  "title": "Connect Gateway",
-                  "description": "Click 'Connect' or 'Enable' next to your chosen gateway"
-                },
-                {
-                  "number": 5,
-                  "title": "Enter API Credentials",
-                  "description": "Provide your Public Key and Secret Key from your payment provider"
+                  "title": "Enable Payment gateway",
+                  "description": "Click 'Enable' next to your chosen gateway"
                 },
                 {
                   "number": 6,
@@ -398,13 +425,10 @@
                   "description": "Make a small test purchase to ensure everything works"
                 }
               ],
-              "tips": [
-                "Keep your API keys secure and never share them publicly",
-                "Enable multiple payment methods for customer convenience",
-                "Test in sandbox mode before going live"
-              ],
-              "important": "You must have an account with the payment provider before integrating.",
-              "relatedGuides": ["store-001", "billing-001"]
+              "tips": [],
+              "important": "You must add delivery locations to properly activate this.",
+              "relatedGuides": ["store-001", "billing-002"],
+              "videoLink": "https://www.youtube.com/shorts/lTvO3q4loUA"
             }
           },
           {
@@ -420,13 +444,13 @@
               "steps": [
                 {
                   "number": 1,
-                  "title": "Open Settings",
-                  "description": "Go to 'Store Settings'"
+                  "title": "Go to dashboard",
+                  "description": "Go to Store"
                 },
                 {
                   "number": 2,
                   "title": "Select Notifications",
-                  "description": "Click 'Notifications' or 'Communication'"
+                  "description": "Click 'Alerts' or 'Notifications'"
                 },
                 {
                   "number": 3,
@@ -435,16 +459,11 @@
                 },
                 {
                   "number": 4,
-                  "title": "Enter Number",
-                  "description": "Provide your WhatsApp Business number with country code"
+                  "title": "Confirm Your Number",
+                  "description": "Check your WhatsApp Business shown on the screen if it's correct"
                 },
                 {
                   "number": 5,
-                  "title": "Configure Preferences",
-                  "description": "Select which notifications to receive (new orders, status updates, messages)"
-                },
-                {
-                  "number": 6,
                   "title": "Verify Number",
                   "description": "Click 'Verify Number' and enter the verification code sent to you"
                 },
@@ -459,7 +478,8 @@
                 "Respond quickly to notifications to improve customer satisfaction",
                 "You can customize which notifications to receive"
               ],
-              "relatedGuides": ["order-001", "order-002"]
+              "relatedGuides": ["order-001", "order-002"],
+              "videoLink": ""
             }
           },
           {
@@ -475,13 +495,13 @@
               "steps": [
                 {
                   "number": 1,
-                  "title": "Go to Products",
-                  "description": "Navigate to 'Products' from your dashboard"
+                  "title": "Go to dashboard",
+                  "description": "Navigate to your dashboard"
                 },
                 {
                   "number": 2,
                   "title": "Select Categories",
-                  "description": "Click 'Categories' in the sidebar"
+                  "description": "Click 'Store' in the sidebar, then click 'categories'"
                 },
                 {
                   "number": 3,
@@ -495,21 +515,6 @@
                 },
                 {
                   "number": 5,
-                  "title": "Add Description",
-                  "description": "Write a brief description (optional)"
-                },
-                {
-                  "number": 6,
-                  "title": "Upload Image",
-                  "description": "Add a category image (optional)"
-                },
-                {
-                  "number": 7,
-                  "title": "Create Subcategories",
-                  "description": "Add subcategories if needed (e.g., under Clothing: Men, Women, Kids)"
-                },
-                {
-                  "number": 8,
                   "title": "Save Category",
                   "description": "Click 'Save Category'"
                 }
@@ -519,7 +524,8 @@
                 "Don't create too many categories - 5-10 main categories work best",
                 "Use subcategories for better organization"
               ],
-              "relatedGuides": ["product-001", "store-001"]
+              "relatedGuides": ["product-001", "store-001"],
+              "videoLink": "https://youtube.com/shorts/ZgfzQuOa-jQ"
             }
           },
           {
@@ -554,21 +560,6 @@
                   "description": "Provide location name/branch name, full address, city, and state"
                 },
                 {
-                  "number": 5,
-                  "title": "Add Contact Info",
-                  "description": "Include phone number and email (optional)"
-                },
-                {
-                  "number": 6,
-                  "title": "Set Business Hours",
-                  "description": "Add operating hours for this location"
-                },
-                {
-                  "number": 7,
-                  "title": "Configure Options",
-                  "description": "Mark as 'Primary Location' if needed and enable/disable for pickups"
-                },
-                {
                   "number": 8,
                   "title": "Save Location",
                   "description": "Click 'Save Location'"
@@ -576,10 +567,10 @@
               ],
               "tips": [
                 "Add accurate addresses to help customers find you easily",
-                "Include clear directions or landmarks",
-                "Update business hours during holidays"
+                "Include clear directions or landmarks"
               ],
-              "relatedGuides": ["store-007", "store-001"]
+              "relatedGuides": ["store-007", "store-001"],
+              "videoLink": "https://www.youtube.com/shorts/hnc4sMc2e34"
             }
           },
           {
@@ -595,7 +586,7 @@
               "steps": [
                 {
                   "number": 1,
-                  "title": "Go to Settings",
+                  "title": "Go to dashboard",
                   "description": "Navigate to 'Store Settings'"
                 },
                 {
@@ -625,21 +616,17 @@
                 },
                 {
                   "number": 7,
-                  "title": "Configure Options",
-                  "description": "Set delivery options: standard, express, or free delivery threshold"
-                },
-                {
-                  "number": 8,
                   "title": "Save",
                   "description": "Click 'Save' and add more zones as needed"
                 }
               ],
               "tips": [
+                "For free delivery, add 1 as delivery fee",
                 "Offer free delivery for orders above a certain amount to encourage larger purchases",
-                "Be realistic with delivery timeframes",
-                "Consider offering express delivery for additional fees"
+                "Be realistic with delivery timeframes"
               ],
-              "relatedGuides": ["store-006", "order-001"]
+              "relatedGuides": ["store-006", "order-001"],
+              "videoLink": "https://youtube.com/shorts/lTvO3q4loUA"
             }
           },
           {
@@ -661,12 +648,12 @@
                 {
                   "number": 2,
                   "title": "Select Pages",
-                  "description": "Click 'Pages' or 'Legal Pages'"
+                  "description": "Click 'Policies'"
                 },
                 {
                   "number": 3,
                   "title": "Choose Policy Type",
-                  "description": "Select 'Refund & Return Policy' or 'Add New Page'"
+                  "description": "Select 'Refund & Return Policy"
                 },
                 {
                   "number": 4,
@@ -680,21 +667,17 @@
                 },
                 {
                   "number": 6,
-                  "title": "Enable Footer",
-                  "description": "Toggle 'Show in footer' to make it easily accessible"
-                },
-                {
-                  "number": 7,
                   "title": "Preview",
                   "description": "Preview the page before publishing"
                 },
                 {
-                  "number": 8,
+                  "number": 7,
                   "title": "Publish",
                   "description": "Click 'Publish' or 'Save'"
                 }
               ],
               "tips": [
+                "We have templates for both refund and return policies, you can edit and use them",
                 "Be clear about return windows (7, 14, or 30 days)",
                 "Specify which items cannot be returned",
                 "Include step-by-step return instructions",
@@ -705,7 +688,8 @@
                 "eligibleItems": "Unopened, unused items in original packaging",
                 "refundTimeline": "5-7 business days after we receive the item"
               },
-              "relatedGuides": ["store-009", "order-003"]
+              "relatedGuides": ["store-009", "order-003"],
+              "videoLink": ""
             }
           },
           {
@@ -727,7 +711,7 @@
                 {
                   "number": 2,
                   "title": "Select FAQ",
-                  "description": "Click 'FAQ' or 'Help Center'"
+                  "description": "Click 'FAQ'"
                 },
                 {
                   "number": 3,
@@ -746,16 +730,6 @@
                 },
                 {
                   "number": 6,
-                  "title": "Categorize",
-                  "description": "Assign to category (Shipping, Payment, Products, Returns)"
-                },
-                {
-                  "number": 7,
-                  "title": "Arrange Order",
-                  "description": "Drag and drop FAQs to prioritize important questions"
-                },
-                {
-                  "number": 8,
                   "title": "Save FAQ",
                   "description": "Click 'Save FAQ' and repeat for more questions"
                 }
@@ -773,7 +747,65 @@
                 "Can I track my order?",
                 "What is your return policy?"
               ],
-              "relatedGuides": ["store-008", "order-001"]
+              "relatedGuides": ["store-008", "order-001"],
+              "videoLink": "https://www.youtube.com/shorts/oIRWFzYOQeg"
+            }
+          },
+          {
+            "id": "store-010",
+            "slug": "create-coupon-code",
+            "title": "How to Create a Coupon Code",
+            "description": "Create discount codes to attract customers",
+            "keywords": ["coupon", "discount code", "promo code", "offer", "promotion"],
+            "category": "store-management",
+            "order": 10,
+            "content": {
+              "introduction": "Coupon codes are a great way to encourage sales and reward loyal customers.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Dashboard",
+                  "description": "Navigate to your store dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Discounts",
+                  "description": "Click 'Discounts' or 'Promotions' in the sidebar"
+                },
+                {
+                  "number": 3,
+                  "title": "Create Coupon",
+                  "description": "Click 'Create Coupon' or 'Add Discount'"
+                },
+                {
+                  "number": 4,
+                  "title": "Enter Coupon Details",
+                  "description": "Specify the coupon name, discount type (percentage or fixed amount), and discount value"
+                },
+                {
+                  "number": 5,
+                  "title": "Set Conditions",
+                  "description": "Define usage limits, minimum purchase amount, applicable products, or customer groups"
+                },
+                {
+                  "number": 6,
+                  "title": "Set Expiry",
+                  "description": "Choose an expiration date for the coupon"
+                },
+                {
+                  "number": 7,
+                  "title": "Save Coupon",
+                  "description": "Click 'Save' or 'Create Coupon' to activate"
+                }
+              ],
+              "tips": [
+                "Use clear, memorable coupon codes (e.g., SUMMER20, FREESHIP)",
+                "Promote coupons via email or social media",
+                "Set reasonable expiration dates to create urgency",
+                "Limit coupons to specific products or categories for targeted promotions"
+              ],
+              "relatedGuides": ["store-001", "order-001"],
+              "videoLink": ""
             }
           }
         ]
@@ -833,18 +865,18 @@
                 },
                 {
                   "number": 8,
-                  "title": "Configure Shipping",
-                  "description": "Add weight and dimensions"
+                  "title": "Add Location",
+                  "description": "(Optional): You can attach this to one of the store branches you have created"
                 },
                 {
                   "number": 9,
-                  "title": "SEO Settings",
-                  "description": "Add meta title and description (optional)"
+                  "title": "Add Category",
+                  "description": "(Optional): You can attach this to one of the categories you have created"
                 },
                 {
                   "number": 10,
                   "title": "Publish",
-                  "description": "Set status to 'Active' and click 'Save Product'"
+                  "description": "Click 'Save Product'"
                 }
               ],
               "tips": [
@@ -854,7 +886,8 @@
                 "Add keywords customers might search for",
                 "Set competitive prices"
               ],
-              "relatedGuides": ["product-002", "store-005"]
+              "relatedGuides": ["product-002", "store-005"],
+              "videoLink": ""
             }
           },
           {
@@ -905,7 +938,8 @@
                 "Keep descriptions current with latest features",
                 "Changes go live immediately after saving"
               ],
-              "relatedGuides": ["product-001", "product-003"]
+              "relatedGuides": ["product-001", "product-003"],
+              "videoLink": "https://www.youtube.com/watch?v=edit-product-vendda"
             }
           },
           {
@@ -952,7 +986,8 @@
                 "Archive keeps product data for future reference"
               ],
               "important": "Deletion is permanent and cannot be undone. Consider archiving instead.",
-              "relatedGuides": ["product-001", "product-002"]
+              "relatedGuides": ["product-001", "product-002"],
+              "videoLink": ""
             }
           }
         ]
@@ -998,28 +1033,17 @@
                 {
                   "number": 5,
                   "title": "Select New Status",
-                  "description": "Choose from: Pending, Processing, Shipped, Out for Delivery, Delivered, or Cancelled"
+                  "description": "Choose from: Shipped, Delivered"
                 },
                 {
                   "number": 6,
-                  "title": "Add Tracking Info",
-                  "description": "Include tracking number if order is shipped (optional)"
-                },
-                {
-                  "number": 7,
-                  "title": "Add Notes",
-                  "description": "Include internal notes if needed (only visible to you)"
-                },
-                {
-                  "number": 8,
                   "title": "Update",
                   "description": "Click 'Update' or 'Save'"
                 }
               ],
               "tips": [
                 "Update order status promptly to keep customers informed",
-                "Add tracking numbers for better customer experience",
-                "Customers receive automatic notifications when status changes",
+                "Customers receive automatic notifications via email and WhatsApp (if enabled) when status changes",
                 "Include estimated delivery dates when possible"
               ],
               "statusMeanings": {
@@ -1030,7 +1054,8 @@
                 "Delivered": "Order completed successfully",
                 "Cancelled": "Order cancelled"
               },
-              "relatedGuides": ["order-002", "store-004"]
+              "relatedGuides": ["order-002", "store-004"],
+              "videoLink": ""
             }
           },
           {
@@ -1093,7 +1118,60 @@
                 "Always provide a clear reason for cancellation"
               ],
               "important": "Customers are automatically notified when orders are cancelled.",
-              "relatedGuides": ["order-001", "store-008"]
+              "relatedGuides": ["order-001", "store-008"],
+              "videoLink": ""
+            }
+          },
+          {
+            "id": "order-003",
+            "slug": "send-invoice",
+            "title": "How to Send an Invoice",
+            "description": "Generate and send invoices to customers",
+            "keywords": ["invoice", "send invoice", "billing", "payment request", "generate invoice"],
+            "category": "order-management",
+            "order": 3,
+            "content": {
+              "introduction": "Sending invoices ensures customers have clear payment instructions and order details.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Orders",
+                  "description": "Navigate to the 'Orders' section in your dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Order",
+                  "description": "Click on the order for which you want to send an invoice"
+                },
+                {
+                  "number": 3,
+                  "title": "View Details",
+                  "description": "Review the order details to ensure accuracy"
+                },
+                {
+                  "number": 4,
+                  "title": "Generate Invoice",
+                  "description": "Click 'Generate Invoice' or 'Send Invoice'"
+                },
+                {
+                  "number": 5,
+                  "title": "Customize Invoice",
+                  "description": "Add any additional notes or terms (optional)"
+                },
+                {
+                  "number": 6,
+                  "title": "Send Invoice",
+                  "description": "Click 'Send' to email the invoice to the customer"
+                }
+              ],
+              "tips": [
+                "Ensure all order details are correct before sending",
+                "Include payment terms and due dates",
+                "Follow up if payment is not received within the specified timeframe",
+                "Invoices are automatically saved in your records"
+              ],
+              "relatedGuides": ["order-001", "billing-002"],
+              "videoLink": ""
             }
           }
         ]
@@ -1164,7 +1242,6 @@
               ],
               "tips": [
                 "Upgrade when you need more products or features",
-                "Pro-rated credits are applied automatically",
                 "Plan upgrades take effect immediately",
                 "You can downgrade later if needed"
               ],
@@ -1176,83 +1253,272 @@
                 "Custom domain",
                 "Advanced analytics"
               ],
-              "relatedGuides": ["billing-002", "store-001"]
+              "relatedGuides": ["billing-002", "store-001"],
+              "videoLink": ""
             }
           },
           {
             "id": "billing-002",
-            "slug": "cancel-subscription",
-            "title": "How to Cancel Subscription Plan",
-            "description": "Cancel or downgrade your subscription",
-            "keywords": ["cancel subscription", "cancel plan", "downgrade", "stop subscription"],
+            "slug": "add-bank-account",
+            "title": "How to Add Bank Account Details",
+            "description": "Set up your bank account to receive payments",
+            "keywords": ["bank account", "payouts", "payment details", "add bank", "bank details"],
             "category": "billing-subscription",
             "order": 2,
             "content": {
-              "introduction": "Cancel your subscription if you need to pause or stop your store.",
+              "introduction": "Add your bank account details to receive payments from sales processed through Vendda.co.",
               "steps": [
                 {
                   "number": 1,
-                  "title": "Go to Account",
-                  "description": "Navigate to 'Account Settings'"
+                  "title": "Access Account",
+                  "description": "Click your profile icon or 'Account'"
                 },
                 {
                   "number": 2,
-                  "title": "Access Billing",
-                  "description": "Click 'Billing' or 'Subscription'"
+                  "title": "Go to Billing",
+                  "description": "Select 'Billing' or 'Payouts'"
                 },
                 {
                   "number": 3,
-                  "title": "View Subscription",
-                  "description": "Review your current subscription details"
+                  "title": "Add Bank Account",
+                  "description": "Click 'Add Bank Account' or 'Set Up Payouts'"
                 },
                 {
                   "number": 4,
-                  "title": "Cancel Subscription",
-                  "description": "Click 'Cancel Subscription' or 'Manage Plan'"
+                  "title": "Enter Bank Details",
+                  "description": "Provide your bank name and account number"
                 },
                 {
                   "number": 5,
-                  "title": "Choose Option",
-                  "description": "Select: Cancel at end of billing period (recommended) or Cancel immediately"
+                  "title": "Verify Details",
+                  "description": "Ensure the account holder name matches the name registered on Vendda.co"
                 },
                 {
                   "number": 6,
-                  "title": "Provide Reason",
-                  "description": "Select cancellation reason (optional)"
+                  "title": "Save Details",
+                  "description": "Click 'Save' to submit your bank details"
                 },
                 {
                   "number": 7,
-                  "title": "Review Impact",
-                  "description": "See what you'll lose: store access, features, data retention"
-                },
-                {
-                  "number": 8,
-                  "title": "Confirm",
-                  "description": "Click 'Confirm Cancellation'"
+                  "title": "Contact Support if Needed",
+                  "description": "If you encounter issues, contact support at support@vendda.co"
                 }
               ],
               "tips": [
-                "Download your data before cancellation if needed",
-                "Cancelled subscriptions can be reactivated",
-                "Outstanding payments must be settled",
-                "Consider downgrading instead of cancelling",
-                "Your store remains active until end of paid period"
+                "Double-check your bank details to avoid payment delays",
+                "Payments are automatically sent when Paystack releases funds",
+                "Contact support immediately if there's a mismatch in account names"
               ],
-              "important": "Your store will remain active until the end of your current billing period.",
-              "relatedGuides": ["billing-001", "auth-001"]
+              "important": "The bank account name must match the name used to register on Vendda.co to avoid payment issues.",
+              "relatedGuides": ["billing-001", "billing-003"],
+              "videoLink": ""
+            }
+          },
+          {
+            "id": "billing-003",
+            "slug": "access-earnings",
+            "title": "How to Access Earnings",
+            "description": "View and manage your store earnings",
+            "keywords": ["earnings", "payouts", "revenue", "sales earnings", "payment history"],
+            "category": "billing-subscription",
+            "order": 3,
+            "content": {
+              "introduction": "Track your store earnings and view payout details to manage your finances.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Dashboard",
+                  "description": "Navigate to your store dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Earnings",
+                  "description": "Click 'Earnings' or 'Payouts' in the sidebar"
+                },
+                {
+                  "number": 3,
+                  "title": "View Earnings",
+                  "description": "See your total earnings, pending payouts, and payment history"
+                },
+                {
+                  "number": 4,
+                  "title": "Check Payout Schedule",
+                  "description": "Review when Paystack will release funds to your bank account"
+                }
+              ],
+              "tips": [
+                "Payments are automatically sent when Paystack releases funds",
+                "Regularly check your earnings to track business performance",
+                "Ensure your bank account details are correct to avoid delays"
+              ],
+              "important": "Earnings are automatically transferred to your registered bank account when Paystack releases funds.",
+              "relatedGuides": ["billing-002", "store-003"],
+              "videoLink": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "analytics",
+        "title": "Analytics",
+        "description": "Track and analyze your store's performance",
+        "icon": "chart-bar",
+        "order": 6,
+        "guides": [
+          {
+            "id": "analytics-001",
+            "slug": "access-analytics",
+            "title": "How to Access Analytics",
+            "description": "View your store's performance metrics and insights",
+            "keywords": ["analytics", "store performance", "metrics", "insights", "data"],
+            "category": "analytics",
+            "order": 1,
+            "content": {
+              "introduction": "Accessing analytics helps you understand your store's performance, customer behavior, and sales trends.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Dashboard",
+                  "description": "Log in and navigate to your store dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Analytics",
+                  "description": "Click 'Analytics' or 'Reports' in the sidebar"
+                },
+                {
+                  "number": 3,
+                  "title": "View Metrics",
+                  "description": "Explore key metrics like sales, visitors, conversion rates, and top products"
+                },
+                {
+                  "number": 4,
+                  "title": "Filter Data",
+                  "description": "Use date ranges or other filters to analyze specific periods or segments"
+                },
+                {
+                  "number": 5,
+                  "title": "Export Reports",
+                  "description": "Download reports for further analysis if needed"
+                }
+              ],
+              "tips": [
+                "Regularly review analytics to identify trends and opportunities",
+                "Focus on metrics like conversion rates to optimize your store",
+                "Use insights to adjust pricing, promotions, or inventory"
+              ],
+              "relatedGuides": ["billing-003", "store-001"],
+              "videoLink": ""
+            }
+          },
+          {
+            "id": "analytics-002",
+            "slug": "access-sales-record",
+            "title": "How to Access and Manage Sales Records",
+            "description": "View and manage your sales history",
+            "keywords": ["sales record", "sales history", "orders", "transactions", "sales data"],
+            "category": "analytics",
+            "order": 2,
+            "content": {
+              "introduction": "Sales records provide a detailed history of all transactions, automatically updated for orders processed on Vendda.co.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Dashboard",
+                  "description": "Navigate to your store dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Sales Records",
+                  "description": "Click 'Sales' or 'Sales Records' in the sidebar"
+                },
+                {
+                  "number": 3,
+                  "title": "View Sales",
+                  "description": "See a list of all sales, including order details, dates, and amounts"
+                },
+                {
+                  "number": 4,
+                  "title": "Add Manual Sale",
+                  "description": "Click 'Add Sale' to manually input offline or external sales"
+                },
+                {
+                  "number": 5,
+                  "title": "Enter Sale Details",
+                  "description": "Provide product, price, and customer details for manual entries"
+                },
+                {
+                  "number": 6,
+                  "title": "Save Sale",
+                  "description": "Click 'Save' to add the manual sale to your records"
+                }
+              ],
+              "tips": [
+                "Orders processed on Vendda.co are automatically added to sales records",
+                "Use manual entries for offline sales to keep all records in one place",
+                "Regularly review sales records to track revenue and trends"
+              ],
+              "important": "Ensure manual entries are accurate to maintain correct financial records.",
+              "relatedGuides": ["analytics-001", "order-001"],
+              "videoLink": ""
+            }
+          }
+        ]
+      },
+      {
+        "id": "customer-management",
+        "title": "Customer Management",
+        "description": "Manage customer interactions and feedback",
+        "icon": "users",
+        "order": 7,
+        "guides": [
+          {
+            "id": "customer-001",
+            "slug": "manage-reviews",
+            "title": "How to Manage Customer Reviews",
+            "description": "Handle and respond to customer reviews",
+            "keywords": ["reviews", "customer feedback", "manage reviews", "product reviews", "ratings"],
+            "category": "customer-management",
+            "order": 1,
+            "content": {
+              "introduction": "Managing customer reviews helps build trust and improve your store's reputation.",
+              "steps": [
+                {
+                  "number": 1,
+                  "title": "Go to Dashboard",
+                  "description": "Navigate to your store dashboard"
+                },
+                {
+                  "number": 2,
+                  "title": "Select Reviews",
+                  "description": "Click 'Reviews' or 'Customer Feedback' in the sidebar"
+                },
+                {
+                  "number": 3,
+                  "title": "View Reviews",
+                  "description": "See a list of customer reviews with ratings and comments"
+                }
+              ],
+              "tips": [
+                "Address negative reviews professionally to resolve issues",
+                "Encourage satisfied customers to leave reviews to boost credibility"
+              ],
+              "relatedGuides": ["store-009", "order-001"],
+              "videoLink": ""
             }
           }
         ]
       }
     ],
     "searchIndex": {
-      "buildDate": "2025-10-08",
-      "totalGuides": 21,
+      "buildDate": "2025-10-15",
+      "totalGuides": 27,
       "allKeywords": [
         "sign up", "register", "new account", "create account", "get started", "join",
         "login", "sign in", "access account", "log in", "enter account",
         "change password", "update password", "new password", "password security", "modify password",
         "forgot password", "reset password", "recover account", "password recovery", "lost password",
+        "google account", "link google", "unlink google", "google login", "integrations",
         "create store", "new store", "setup store", "start store", "build store",
         "template", "theme", "design", "appearance", "change theme", "customize store",
         "payment", "gateway", "paystack", "flutterwave", "stripe", "accept payment", "payment method",
@@ -1262,13 +1528,19 @@
         "delivery", "shipping", "delivery zones", "shipping fees", "delivery areas",
         "refund", "return", "policy", "return policy", "refund policy",
         "faq", "frequently asked questions", "help", "customer support", "questions",
+        "coupon", "discount code", "promo code", "offer", "promotion",
         "add product", "new product", "list product", "create product", "product listing",
         "edit product", "update product", "modify product", "change product",
         "delete product", "remove product", "archive product",
         "order status", "update order", "order tracking", "fulfillment", "processing",
         "cancel order", "order cancellation", "refund", "cancel",
+        "invoice", "send invoice", "billing", "payment request", "generate invoice",
         "upgrade", "subscription", "plan", "upgrade plan", "premium",
-        "cancel subscription", "cancel plan", "downgrade", "stop subscription"
+        "bank account", "payouts", "payment details", "add bank", "bank details",
+        "earnings", "payouts", "revenue", "sales earnings", "payment history",
+        "analytics", "store performance", "metrics", "insights", "data",
+        "sales record", "sales history", "orders", "transactions", "sales data",
+        "reviews", "customer feedback", "manage reviews", "product reviews", "ratings"
       ]
     },
     "navigation": {
@@ -1276,8 +1548,9 @@
         "auth-001": {"next": "auth-002"},
         "auth-002": {"previous": "auth-001", "next": "auth-003"},
         "auth-003": {"previous": "auth-002", "next": "auth-004"},
-        "auth-004": {"previous": "auth-003", "next": "store-001"},
-        "store-001": {"previous": "auth-004", "next": "store-002"},
+        "auth-004": {"previous": "auth-003", "next": "auth-005"},
+        "auth-005": {"previous": "auth-004", "next": "store-001"},
+        "store-001": {"previous": "auth-005", "next": "store-002"},
         "store-002": {"previous": "store-001", "next": "store-003"},
         "store-003": {"previous": "store-002", "next": "store-004"},
         "store-004": {"previous": "store-003", "next": "store-005"},
@@ -1285,14 +1558,20 @@
         "store-006": {"previous": "store-005", "next": "store-007"},
         "store-007": {"previous": "store-006", "next": "store-008"},
         "store-008": {"previous": "store-007", "next": "store-009"},
-        "store-009": {"previous": "store-008", "next": "product-001"},
-        "product-001": {"previous": "store-009", "next": "product-002"},
+        "store-009": {"previous": "store-008", "next": "store-010"},
+        "store-010": {"previous": "store-009", "next": "product-001"},
+        "product-001": {"previous": "store-010", "next": "product-002"},
         "product-002": {"previous": "product-001", "next": "product-003"},
         "product-003": {"previous": "product-002", "next": "order-001"},
         "order-001": {"previous": "product-003", "next": "order-002"},
-        "order-002": {"previous": "order-001", "next": "billing-001"},
-        "billing-001": {"previous": "order-002", "next": "billing-002"},
-        "billing-002": {"previous": "billing-001"}
+        "order-002": {"previous": "order-001", "next": "order-003"},
+        "order-003": {"previous": "order-002", "next": "billing-001"},
+        "billing-001": {"previous": "order-003", "next": "billing-002"},
+        "billing-002": {"previous": "billing-001", "next": "billing-003"},
+        "billing-003": {"previous": "billing-002", "next": "analytics-001"},
+        "analytics-001": {"previous": "billing-003", "next": "analytics-002"},
+        "analytics-002": {"previous": "analytics-001", "next": "customer-001"},
+        "customer-001": {"previous": "analytics-002"}
       }
     },
     "metadata": {
