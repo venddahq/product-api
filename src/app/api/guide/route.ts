@@ -7,20 +7,65 @@ export async function OPTIONS(request: NextRequest) {
   return NextResponse.json({}, { headers: corsHeaders(origin) });
 }
 
-
 export async function GET(request: NextRequest) {
   const origin = request.headers.get('origin');
+  const searchParams = request.nextUrl.searchParams;
+  const productFilter = searchParams.get('product');
   
   try {
+    // Return documentation overview with optional product filter
+    type ProductId = 'commerce' | 'terminal' | 'corp';
+    
+    interface ProductInfo {
+      id: string;
+      title: string;
+      description: string;
+      icon: string;
+      order: number;
+    }
+    
+    interface Category {
+      id: string;
+      title: string;
+      description: string;
+      icon: string;
+      order: number;
+      guides: Array<{
+        id: string;
+        slug: string;
+        title: string;
+        description: string;
+      }>;
+    }
+    
+    let response: {
+      title: string;
+      description: string;
+      version: string;
+      lastUpdated: string;
+      products: ProductInfo[];
+      shared?: { categories: Category[] };
+      productCategories?: Category[];
+    } = {
+      title: docs.documentation.title,
+      description: docs.documentation.description,
+      version: docs.documentation.version,
+      lastUpdated: docs.documentation.lastUpdated,
+      products: docs.documentation.products,
+    };
+    
+    if (productFilter && ['commerce', 'terminal', 'corp'].includes(productFilter)) {
+      // Return specific product categories
+      const productData = docs.documentation[productFilter as ProductId];
+      response.productCategories = productData?.categories || [];
+    } else {
+      // Return shared categories for general overview
+      response.shared = docs.documentation.shared;
+    }
+    
     return NextResponse.json({
       success: true,
-      data: {
-        title: docs.documentation.title,
-        description: docs.documentation.description,
-        version: docs.documentation.version,
-        lastUpdated: docs.documentation.lastUpdated,
-        categories: docs.documentation.categories
-      }
+      data: response
     }, { 
       headers: corsHeaders(origin) 
     });
