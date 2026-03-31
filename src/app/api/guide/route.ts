@@ -2,21 +2,7 @@ import { corsHeaders } from "@/utils/api.origin-header";
 import { NextRequest, NextResponse } from "next/server";
 import docs from "@/data/product-guide.json"
 
-export async function OPTIONS(request: NextRequest) {
-  const origin = request.headers.get('origin');
-  return NextResponse.json({}, { headers: corsHeaders(origin) });
-}
-
-export async function GET(request: NextRequest) {
-  const origin = request.headers.get('origin');
-  const searchParams = request.nextUrl.searchParams;
-  const productFilter = searchParams.get('product');
-  
-  try {
-    // Return documentation overview with optional product filter
-    type ProductId = 'commerce' | 'terminal' | 'corp';
-    
-    interface ProductInfo {
+interface ProductInfo {
       id: string;
       title: string;
       description: string;
@@ -24,7 +10,7 @@ export async function GET(request: NextRequest) {
       order: number;
     }
     
-    interface Category {
+interface Category {
       id: string;
       title: string;
       description: string;
@@ -37,6 +23,22 @@ export async function GET(request: NextRequest) {
         description: string;
       }>;
     }
+
+export async function OPTIONS(request: NextRequest) {
+  const origin = request.headers.get('origin');
+  return NextResponse.json({}, { headers: corsHeaders(origin) });
+}
+
+
+export async function GET(request: NextRequest) {
+  const origin = request.headers.get('origin');
+  const searchParams = request.nextUrl.searchParams;
+  const productFilter = searchParams.get('product');
+  
+  try {
+    // Return documentation overview with optional product filter
+    type ProductId = 'commerce' | 'terminal' | 'corp';
+    
     
     let response: {
       title: string;

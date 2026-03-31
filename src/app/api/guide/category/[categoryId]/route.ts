@@ -15,7 +15,14 @@ export async function GET(
   const { categoryId } = await params;
   
   try {
-    const category = docs.documentation.categories.find(
+    const allCategories = [
+      ...docs.documentation.shared.categories,
+      ...docs.documentation.commerce.categories,
+      ...docs.documentation.terminal.categories,
+      ...docs.documentation.corp.categories
+    ];
+
+    const category = allCategories.find(
       cat => cat.id === categoryId
     );
 

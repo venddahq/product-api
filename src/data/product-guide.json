@@ -46,7 +46,7 @@
               "content": {
                 "introduction": "Creating a Vendda account takes just a few minutes. Once registered, you'll have access to all Vendda products and can start building your online business right away.",
                 "steps": [
-                  { "number": 1, "title": "Go to Vendda", "description": "Open your web browser and visit vendda.co. Click the 'Get Started' button in the top right corner, or go directly to vendda.co/register" },
+                  { "number": 1, "title": "Go to Vendda", "description": "Open your web browser and visit vendda.co. Click the 'Get Started' or 'Start Selling' button in the top right corner, or go directly to vendda.app/auth/register" },
                   { "number": 2, "title": "Enter Your Details", "description": "Fill in your business name, email address, phone number, and create a strong password (at least 8 characters with letters and numbers)" },
                   { "number": 3, "title": "Accept Terms", "description": "Review and accept the Terms of Service and Privacy Policy" },
                   { "number": 4, "title": "Create Account", "description": "Click the 'Create Account' button to submit your registration" },
@@ -73,7 +73,7 @@
               "content": {
                 "introduction": "Access your Vendda dashboard to manage your stores, products, orders, and settings. You can log in from any device with an internet connection.",
                 "steps": [
-                  { "number": 1, "title": "Go to Vendda", "description": "Visit vendda.co and click 'Login' in the top right corner, or go directly to vendda.co/login" },
+                  { "number": 1, "title": "Go to Vendda", "description": "Visit vendda.co and click 'Login' in the top right corner, or go directly to vendda.app/auth/login" },
                   { "number": 2, "title": "Enter Your Email", "description": "Type your registered email address in the email field" },
                   { "number": 3, "title": "Enter Your Password", "description": "Type your account password" },
                   { "number": 4, "title": "Sign In", "description": "Click the 'Sign In' button to access your dashboard" }
@@ -162,7 +162,7 @@
               "content": {
                 "introduction": "Creating your store is the first step to selling online. Follow these steps to get your store up and running.",
                 "steps": [
-                  { "number": 1, "title": "Access Dashboard", "description": "Login and navigate to your dashboard" },
+                  { "number": 1, "title": "Access Dashboard", "description": "Login and navigate to your dashboard, switch app to 'Commerce' " },
                   { "number": 2, "title": "Create New Store", "description": "Click 'Create New Store' or 'Add Store' button" },
                   { "number": 3, "title": "Enter Store Details", "description": "Fill in store name, description, business category, and store username" },
                   { "number": 4, "title": "Create Store", "description": "Click 'Create Store' and your store is live!" }
@@ -182,18 +182,18 @@
               "content": {
                 "introduction": "Change your store's template to match your brand and style.",
                 "steps": [
-                  { "number": 1, "title": "Open Store Settings", "description": "Go to your store dashboard and click 'Store'" },
-                  { "number": 2, "title": "Click Branding", "description": "Navigate to 'Templates' section" },
-                  { "number": 3, "title": "Browse Templates", "description": "Explore available templates" },
-                  { "number": 4, "title": "Preview", "description": "Click 'Preview' to see how each template looks" },
-                  { "number": 5, "title": "Apply Template", "description": "Click 'Apply' on your chosen design" },
+                  { "number": 1, "title": "Open Store Settings", "description": "Go to your store dashboard and click 'Store setup'" },
+                  { "number": 2, "title": "Click Branding", "description": "Navigate to 'Themes' section" },
+                  { "number": 3, "title": "Browse Templates", "description": "Explore available Themes" },
+                  { "number": 4, "title": "Preview", "description": "Click 'Preview' to see how each Theme looks" },
+                  { "number": 5, "title": "Apply Theme", "description": "Click 'Apply' on your chosen Theme" },
                   { "number": 6, "title": "Customize", "description": "Adjust colors if needed" },
                   { "number": 7, "title": "Save Changes", "description": "Click 'Save Changes' to apply" }
                 ],
                 "tips": [
-                  "Choose a template that matches your products and brand",
-                  "Mobile-responsive templates work better for all devices",
-                  "You can change templates anytime without losing your content"
+                  "Choose a Theme that matches your products and brand",
+                  "Mobile-responsive Themes work better for all devices",
+                  "You can change Themes anytime without losing your content"
                 ],
                 "relatedGuides": ["commerce-001"]
               }
@@ -208,7 +208,7 @@
               "content": {
                 "introduction": "Add your physical store locations to help customers find you and enable in-store pickups.",
                 "steps": [
-                  { "number": 1, "title": "Open Settings", "description": "Navigate to 'Store Settings'" },
+                  { "number": 1, "title": "Open Setup", "description": "Navigate to 'Store Setup'" },
                   { "number": 2, "title": "Select Locations", "description": "Click 'Locations' or 'Store Locations'" },
                   { "number": 3, "title": "Add Location", "description": "Click 'Add Location'" },
                   { "number": 4, "title": "Enter Details", "description": "Provide location name/branch name, full address, city, and state" },
